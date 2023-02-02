@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+:root {
+    --corUm: #49a09d;
+    --corDois: #5f2c82;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body {
+    background-color: var(--corDois);
+    height: 100vh;
+}
+main {
+    height: 100vh;
+    position: relative;
+} 
+section#login {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85vw;
+    height: 90vh;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.34);
+}
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+main p {
+    margin: 5px;
+    text-align: center;
+}
+div#formulario {
+    text-align: center;
+}
+div#imagem {
+    height: 200px;
+    background-image: url(pexels-vinícius-estevão-2896034.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+} 
+.inputPersonalizado {
+    border-radius: 10px;
+    width: calc(100% - 57px);
+    border: none;
+    height: 33px;
+    font-size: 1em;
+    transform: translateY(-12px);
+    outline: none;
+}
+.backgrounds {
+    background-color: #5f2c82;
+    border-radius: 10px;
+    height: 35px;
+    width: 87%;
+    margin: auto;
+    margin-top: 7px;
+}
+.material-symbols-outlined {
+    color: white;
+    padding: 5px;
+    font-size: 1.9em;
+    width: 35px;
+    height: 30px;
+}
+::placeholder {
+    padding-left: 10px;
+}
+#botao1 {
+    margin: 5px;
+    margin-top: 0px;
+    width: 90%;
+    border-radius: 5px;
+    height: 35px;
+    border: none;
+    background-color: #49a09d;
+    color: white;
+    font-size: 1em;
+}
+#botao2 {
+    margin: 5px;
+    margin-top: 0px;
+    width: 90%;
+    border-radius: 5px;
+    height: 35px;
+    border: 1px solid #49a09d;
+    background-color: white;
+    color: #2d6462;
+    font-size: 1em;
+}
+#botao1:hover {
+    background-color: #2d6462;
+}
+#botao2:hover {
+    background-color: #2d6462;
+    color: white;
+}
