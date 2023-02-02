@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px) {
+        section#login {
+            width: 550px;
+        }
+        div#formulario {
+            width: 530px;
+        }
+        .backs {
+            width: 300px;
+        }
+        .botoes {
+            width: 300px;
+        }
+        .caixas {
+            width: 230px;
+        }
+}
+
+@media screen and (min-width:992px) {
+    /* section#login {
+        width: 70vw;
+        height: 70vh;
+    }
+    div#formulario {
+        width: calc(70vw - 10px);
+        height: calc(70vh - 10px);
+    }
+    .backs {
+        width: 45vw;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .botoes {
+        width: 45vw;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .caixas {
+        width: 35vw;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    } */
+
+    section#login {
+        width: 550px;
+    }
+    div#formulario {
+        width: 530px;
+    }
+    .backs {
+        width: 300px;
+    }
+    .botoes {
+        width: 300px;
+    }
+    .caixas {
+        width: 230px;
+    }
+}

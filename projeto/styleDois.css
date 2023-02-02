@@ -1,0 +1,160 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #FCA781;
+    
+}
+#head {
+    background-color: #E64C3E;
+    width: 100vw;
+    height: 170px;
+    display: inline-block;
+}
+#esquerda {
+    background-color: #FCA781;
+    margin-top: 10px;
+    width: 850px;
+    height: 370px;
+    display: inline-block;
+}
+#direita {
+    background-color: #F29C35;
+    width: 400px;
+    float: right;
+    height: 370px;
+    margin-top: -330px;
+    margin-right: 18px;
+   display: none;
+}
+
+#dados {
+    width: 425px;
+    height: 140px;
+    position: relative;
+    bottom: -120px;
+    left: 10px;
+}
+h1 {
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 3.8em;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+#segundoInput {
+    margin-top: 30px;
+}
+.caixas {
+    padding: 0px;
+    margin: 0px;
+    height: 35px; 
+    font-size: 1.5em;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+    width: 240px;
+    transform: translate(150px, 0px);
+    background-color:  rgb(240,242,245);
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.caixa-texto {
+    padding: 0px;
+    
+}
+label#primeiroLabel {
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-right: -140px;
+    margin-left: 67px;
+    font-size: 1.7em;
+    font-weight: bold;
+    
+}
+label#segundoLabel {
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-right: -140px;
+    margin-left: 5px;
+    font-size: 1.7em;
+    font-weight: bold;
+    
+}
+.places {
+    background-color: #be4135;
+    width: 425px;
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+/*//////////////////////////////////////////////////////*/
+
+#circle {
+    /* background-image: url(panda-pexels.png.jpg); */
+    /* background-size: cover;
+    background-position: center center; */
+    position: absolute;
+    padding: 165px;
+    left: 470px;
+    top: 190px;
+    border-radius: 50%;
+    background-color: #be4135;
+    width: 20px;
+    height: 20px;
+    
+}
+iframe {
+    border-radius: 50%;
+    position: relative;
+    width:330px;
+    height: 330px;
+    top: -155px;
+    left: -155px;
+    
+}
+#icones {
+    width: 70%;
+    margin: auto;
+    height: 70%;
+    margin-top: 10px;
+    
+}
+.square {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 25px;
+}
+#direita h2 {
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 2em;
+   
+    background-color: #be4135;
+    width: 110px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 25px ;
+}
+#img {
+    
+    margin-top: -75px;
+    margin-left: 150px;
+}
+#img input {
+    font-size: 1.3em;
+    background-color: #F29C35;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'PT Sans Narrow';
+    font-weight: bold;
+}

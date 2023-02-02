@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="styleDois.css">
+</head>
+<body>
+    <div id="head">
+        <h1 style="display: inline-block;">PERFIL</h1>
+    </div>
+    <section id="esquerda">
+        
+
+            <div id="dados">
+                
+                    <div class="places">
+                        <label id="primeiroLabel" for="inome">NOME:</label>
+                        <input type="text" name="" id="inome" value="Guilherme" class="caixas">
+                    </div>
+                
+                    <div class="places" id="segundoLugar">
+                        <label id="segundoLabel" for="segundoInput">SOBRENOME:</label>
+                        <input type="text" name="" id="segundoInput" value="Baumer" class="caixas">
+                    </div>
+            </div>
+        
+
+        <div id="circle">
+            <iframe scrolling="no" name="tv" src="panda-pexels.png.jpg" frameborder="0"></iframe>
+        </div>
+
+
+    </section>
+    <div id="img">
+        <input type="button" value="MUDAR IMAGEM" onclick="menu()">
+    </div>
+    <div id="direita">
+        <h2>IMAGEM</h2>
+        <div id="icones">
+            <a href="imgs/panda-pexels.png.jpg" target="tv"><img class="square" src="imgs/panda-icone.jpg" alt=""></a>
+            <a href="imgs/nova-alce-pexels.jpg" target="tv"><img class="square" src="imgs/alce-icone.jpg" alt=""></a><br>
+            <a href="imgs/lagarto-novo.jpg" target="tv"><img class="square" src="imgs/pexels-pragyan-bezbaruah-2566315.jpg" alt=""></a>
+            <a href="imgs/noite-grande.jpg" target="tv"><img class="square" src="imgs/noite.jpg" alt=""></a>
+        </div>
+    </div>
+    <script>
+        function menu() {
+            if(direita.style.display == 'block') {
+                direita.style.display = 'none';          
+            }
+            else {
+                direita.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>

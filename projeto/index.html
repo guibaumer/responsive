@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="formulario">
+                <h1>Login</h1>
+                <form>
+                    <p>Insira seus dados para entrar.</p>
+                    <div class="backs">
+
+                        <label for="inome"><span class="material-symbols-outlined">
+                            person
+                            </span></label>
+
+                        
+                        <input type="text" name="nome" id="inome" class="caixas" required minlength="2" maxlength="30" autocomplete="name" placeholder="seu nome">
+                    </div>
+                    <div class="backs">
+                        <label for="isenha"><span class="material-symbols-outlined">
+                            key
+                            </span></label>
+                        
+                        <input type="password" name="senha" id="isenha" class="caixas" required maxlength="20" placeholder="sua senha">
+                    </div>
+                    <div>
+                        <input type="button" value="Entrar" class="botoes" onclick="entrada()">  
+                    </div>
+                    <div>
+                        <input type="reset" value="Limpar" class="botoes" id="botaoLimpar">
+                    </div>
+            </div>
+            </form>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
