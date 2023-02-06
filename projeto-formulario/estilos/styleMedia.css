@@ -12,13 +12,14 @@
     div#imagem {
         width: 35%;
         height: 100%;
+        float: left;
     }
     div#formulario {
        float: right;
        background-color: #ffffff;
-       width: 66%;
+       width: 65%;
        height: 100%;
-       transform: translateY(-279.5px);
+       /* transform: translateY(-279.5px);  */
        border-radius: 0px 20px 20px 0px;
     }
     #botao1 {

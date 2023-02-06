@@ -9,13 +9,12 @@ body {
 }
 h1 {
     font-size: 3em;
+    /* font-size: 10vw; */
     text-align: center;
     margin: 5px;
 }
 #container {
     max-width: 450px;
-    
-    height: 250px;
     margin: auto;
     margin-top: 130px;
     padding: 10px;
@@ -37,11 +36,12 @@ h1 {
 }
 #inputs input[type=button] {
     width: 25%;
-    padding: 5px;
+    height: 29px;
+    /* padding: 5px; */
 }
 #inputs input[type=text] {
-    width: 70%;
-    padding: 5px;
+    width: 65%;
+     padding: 5px; 
 }
 #central {
     margin-top: 45px;
@@ -78,3 +78,8 @@ span:hover {
     color: red;
 }
 
+@media screen and (max-width: 345px) {
+    h1 {
+        font-size: 2em;
+    }
+}
